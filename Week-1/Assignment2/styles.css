@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-container{
+    height: 100vh;
+}
+
+.top-container{
+    height: 90%;
+    display: flex;
+}
+
+.side-bar{
+    background-color: rgb(221,221,221);
+    width: 4%;
+    height: 100%;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    height: 100%;
+}
+.side-bar li{
+    box-sizing: border-box;
+    height: 12.5%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.side-bar li i{
+    margin-top: 50%;
+}
+
+.main-content{
+    height: 100%;
+    width: 100%;
+}
+.current-playing{
+ height: 40%;
+ background-color: rgb(69,69,69);
+ display: flex;
+ color: white;
+}
+
+.current-playing img{
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.side-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.current-info h3{
+    margin: 0;
+}
+
+.side-wrapper ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.side-wrapper ul li{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.song-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.song-item:nth-child(even) {
+    background:rgba(221,221,221,0.5);
+  }
+
+.song-item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    box-sizing: border-box;
+    padding: 12px;
+}
+.song-item button{
+    color: blue;
+    background-color: white;
+    width: max-content;
+    max-height: min-content;
+}
+
+
+
+.bottom-container{
+    height: 10%;
+    background-color: rgb(67,104,155);
+    display: flex;
+    justify-content: space-between;
+}
+
+.song-card{
+    display: flex;
+    color: white;
+}
+.bottom-container img{
+    box-sizing: border-box;
+    height: 100%;
+    padding: 8px;
+}
+
+.bottom-container ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+.bottom-container ul  li{
+    width: 20%;
+    display: flex;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
