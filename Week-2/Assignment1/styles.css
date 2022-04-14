@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 820px) {
+    .articles{
+        display: flex;
+        flex-direction: column;
+    }
+  }
