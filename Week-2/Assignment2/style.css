@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main{
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.red{
+    background-color: red;
+    transform-origin: 0% 0%;
+}
+.yellow{
+    background-color: yellow;
+    transform-origin:  100% 0%;
+}
+.green {
+    background-color: green;
+    transform-origin: 0% 100%;
+}
+
+.blue{
+    background-color: blue;
+    transform-origin: 100% 100%;
+}
+
+#main:hover .red,#main:hover .blue{
+    animation: rotateanti;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+ }
+ #main:hover .yellow,#main:hover .green{
+     animation: rotateclockwise;
+     animation-duration: 2s;
+     animation-timing-function: ease-in-out;
+ }
+
+@keyframes rotateanti {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(90deg);}
+  }
+
+@keyframes rotateclockwise {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-90deg);}
+  }
+

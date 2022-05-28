@@ -1,0 +1,9 @@
+'Count is 0' is what is logged while the count variable value will be 3
+
+Increment is called 3 times so every time increment is called 1 is added to count variable 
+and calling increment 3 times will make the value of count 3
+
+When log is called it is going to print the message variable .Although the message string contains count variable
+it prints 'Count is 0' because when string is formed at runtime the value of count was 0;
+
+
