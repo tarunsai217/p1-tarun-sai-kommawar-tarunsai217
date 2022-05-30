@@ -1,0 +1,22 @@
+.modal{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal textarea{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.modal button{
+    padding: 0.5rem;
+    min-width: 100px;
+    max-width: 140px;
+    align-self: flex-end;
+}
