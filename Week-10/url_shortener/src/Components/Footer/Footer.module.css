@@ -1,0 +1,22 @@
+.footerContainer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.listHeading{
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+
+.footerContainer ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.footerContainer ul li{
+    padding: 0.5rem;
+}
