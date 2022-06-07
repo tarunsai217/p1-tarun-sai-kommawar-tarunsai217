@@ -1,0 +1,25 @@
+.stepCounter {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    font-size: 1.1rem;
+    align-self: center;
+    margin-bottom: 1.5rem;
+}
+
+.add{
+    color: white;
+    background-color: #673D97;
+    margin-bottom: 1rem;
+    
+}
+
+.reset{
+    color: black;
+    background-color: #DEDEDE;
+}
