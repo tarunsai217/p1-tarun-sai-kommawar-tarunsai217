@@ -1,0 +1,5 @@
+list of query parameters which can be attached to endpoint
+
+q=<city or city code>
+dt=<date>
+days=<no of days of forecast>

@@ -13,7 +13,7 @@ const method=req.method;
 
 
 if(pathname=='/' && method=='GET'){
-    res.write('<h1>Welcome to Weather details page</h1>')
+    res.write('<h1>Find Weather details here</h1>')
 
     let fetch=async(path)=>{
         var data=await axios.get(path);   
