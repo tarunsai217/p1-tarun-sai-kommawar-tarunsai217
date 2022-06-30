@@ -1,12 +1,6 @@
-list of query parameters which can be attached to endpoint
+URL endpoint with post objects for body
 
-q=<city or city code>
-dt=<date>
-days=<no of days of forecast>
-
-
-Sample Routes
-http://localhost:5050/?q=london
-http://localhost:5050/?q=london&days=3
-http://localhost:5050/?q=london&dt=<date>
-
+http://localhost:5050
+{ "q":"london"}
+{ "q":"london","days":"5"}
+{ "q":"london","dt":"01-08-2022" }
